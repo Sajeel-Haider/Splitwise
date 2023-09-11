@@ -1,0 +1,14 @@
+@import "../Styles/variables";
+
+.user-dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.active {
+  background-color: $secondary-color !important;
+}
+.all-btn {
+  display: flex;
+}

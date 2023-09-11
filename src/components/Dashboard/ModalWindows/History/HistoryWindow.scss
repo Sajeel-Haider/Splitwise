@@ -1,0 +1,65 @@
+@import "../../../Styles/variables";
+
+.groupInterface-container {
+  display: flex;
+  justify-content: center;
+}
+.grp-history {
+  background-color: $primary-color;
+  padding: 10%;
+  border-radius: 20px;
+  flex-shrink: 0;
+  min-width: 300px;
+  button {
+    padding: 2%;
+    border-radius: 20px;
+    border: none;
+  }
+}
+.expense-data-container {
+  padding: 7%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  margin: 20px;
+}
+
+.expense-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.expense-data span {
+  font-weight: bolder;
+}
+
+.expense-data p {
+  margin: 5px 0;
+}
+
+.lent-paid-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lent-paid-container p {
+  margin: 5px 0;
+}
+
+.lent-info {
+  background-color: #f9e8a5;
+  padding: 10px;
+}
+
+.debt-info {
+  background-color: #fadada;
+  padding: 10px;
+}
+
+.settle-btn {
+  background-color: #6cbf6d;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
